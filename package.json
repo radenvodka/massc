@@ -1,0 +1,23 @@
+{
+  "name": "massc",
+  "version": "1.0.0",
+  "description": "Subdomain Scanner Tools with word-lists",
+  "main": "massc.js",
+  "scripts": {
+    "test": "massc.js domain.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radenvodka/massc.git"
+  },
+  "keywords": [
+    "Subdomain",
+    "Scanner"
+  ],
+  "author": "Eka Syahwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radenvodka/massc/issues"
+  },
+  "homepage": "https://github.com/radenvodka/massc#readme"
+}

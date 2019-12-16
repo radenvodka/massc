@@ -17,7 +17,7 @@ Enough to execute the command :
 
     node massc.js example.com
 
-or if it doesn't work, use the command : 
+or if `process out of memory`, use the command : 
     
     node massc.js example.com --max-old-space-size=8192
 

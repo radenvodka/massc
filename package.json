@@ -4,7 +4,7 @@
   "description": "Subdomain Scanner Tools with word-lists",
   "main": "massc.js",
   "scripts": {
-    "test": "massc.js domain.com"
+    "start": "node massc.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/radenvodka/massc/issues"
   },
-  "homepage": "https://github.com/radenvodka/massc#readme"
+  "homepage": "https://github.com/radenvodka/massc#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.0",
+    "readline-sync": "^1.4.10"
+  }
 }

@@ -3,21 +3,22 @@
   "version": "1.0.0",
   "description": "Subdomain Scanner Tools with word-lists",
   "main": "massc.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.17.1",
+    "extract-domain": "^2.2.1",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "massc.js domain.com"
+    "test": "node massc.js domain.com"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/radenvodka/massc.git"
   },
-  "keywords": [
-    "Subdomain",
-    "Scanner"
-  ],
   "author": "Eka Syahwan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/radenvodka/massc/issues"
-  },
-  "homepage": "https://github.com/radenvodka/massc#readme"
+  "license": "ISC"
 }
